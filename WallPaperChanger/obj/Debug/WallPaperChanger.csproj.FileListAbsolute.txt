@@ -1,0 +1,13 @@
+D:\PROGRAM\WallPaperChanger\WallPaperChanger\bin\Debug\WallPaperChanger.exe.config
+D:\PROGRAM\WallPaperChanger\WallPaperChanger\bin\Debug\WallPaperChanger.exe
+D:\PROGRAM\WallPaperChanger\WallPaperChanger\bin\Debug\WallPaperChanger.pdb
+D:\PROGRAM\WallPaperChanger\WallPaperChanger\obj\Debug\WallPaperChanger.csprojResolveAssemblyReference.cache
+D:\PROGRAM\WallPaperChanger\WallPaperChanger\obj\Debug\WallPaperChanger.Form1.resources
+D:\PROGRAM\WallPaperChanger\WallPaperChanger\obj\Debug\WallPaperChanger.Properties.Resources.resources
+D:\PROGRAM\WallPaperChanger\WallPaperChanger\obj\Debug\WallPaperChanger.csproj.GenerateResource.Cache
+D:\PROGRAM\WallPaperChanger\WallPaperChanger\obj\Debug\WallPaperChanger.exe
+D:\PROGRAM\WallPaperChanger\WallPaperChanger\obj\Debug\WallPaperChanger.pdb
+D:\PROGRAM\WallPaperChanger\WallPaperChanger\bin\Debug\WallPaperChanger.exe.manifest
+D:\PROGRAM\WallPaperChanger\WallPaperChanger\bin\Debug\WallPaperChanger.application
+D:\PROGRAM\WallPaperChanger\WallPaperChanger\obj\Debug\WallPaperChanger.exe.manifest
+D:\PROGRAM\WallPaperChanger\WallPaperChanger\obj\Debug\WallPaperChanger.application
