@@ -38,6 +38,9 @@
             this.BubbleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.NightToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.时间设置ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.语言LanguageToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.CHToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.englishToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.comboBox1 = new System.Windows.Forms.ComboBox();
@@ -56,7 +59,7 @@
             this.notifyIcon1.BalloonTipIcon = System.Windows.Forms.ToolTipIcon.Info;
             this.notifyIcon1.ContextMenuStrip = this.contextMenuStrip1;
             this.notifyIcon1.Icon = ((System.Drawing.Icon)(resources.GetObject("notifyIcon1.Icon")));
-            this.notifyIcon1.Text = "SXR-WP Changer";
+            this.notifyIcon1.Text = "Laputa";
             this.notifyIcon1.Visible = true;
             // 
             // contextMenuStrip1
@@ -65,10 +68,11 @@
             this.sXRWPC10ToolStripMenuItem,
             this.ToolStripMenuItem1,
             this.NightToolStripMenuItem,
+            this.语言LanguageToolStripMenuItem,
             this.ToolStripMenuItem2});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
-            this.contextMenuStrip1.Size = new System.Drawing.Size(161, 92);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(163, 114);
             this.contextMenuStrip1.Text = "SXR-WPC 1.1";
             // 
             // sXRWPC10ToolStripMenuItem
@@ -77,8 +81,8 @@
             this.sXRWPC10ToolStripMenuItem.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold);
             this.sXRWPC10ToolStripMenuItem.Name = "sXRWPC10ToolStripMenuItem";
             this.sXRWPC10ToolStripMenuItem.ShowShortcutKeys = false;
-            this.sXRWPC10ToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
-            this.sXRWPC10ToolStripMenuItem.Text = "SXR-WPC 1.1";
+            this.sXRWPC10ToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
+            this.sXRWPC10ToolStripMenuItem.Text = "Laputa V1.2";
             this.sXRWPC10ToolStripMenuItem.Click += new System.EventHandler(this.sXRWPC10ToolStripMenuItem_Click);
             // 
             // ToolStripMenuItem1
@@ -87,7 +91,7 @@
             this.SoundToolStripMenuItem,
             this.BubbleToolStripMenuItem});
             this.ToolStripMenuItem1.Name = "ToolStripMenuItem1";
-            this.ToolStripMenuItem1.Size = new System.Drawing.Size(160, 22);
+            this.ToolStripMenuItem1.Size = new System.Drawing.Size(162, 22);
             this.ToolStripMenuItem1.Text = "气泡与声音提示";
             // 
             // SoundToolStripMenuItem
@@ -113,7 +117,7 @@
             this.NightToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.时间设置ToolStripMenuItem});
             this.NightToolStripMenuItem.Name = "NightToolStripMenuItem";
-            this.NightToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
+            this.NightToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
             this.NightToolStripMenuItem.Text = "定时免打扰";
             // 
             // 时间设置ToolStripMenuItem
@@ -123,10 +127,33 @@
             this.时间设置ToolStripMenuItem.Text = "时间设置...";
             this.时间设置ToolStripMenuItem.Click += new System.EventHandler(this.时间设置ToolStripMenuItem_Click);
             // 
+            // 语言LanguageToolStripMenuItem
+            // 
+            this.语言LanguageToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.CHToolStripMenuItem,
+            this.englishToolStripMenuItem});
+            this.语言LanguageToolStripMenuItem.Name = "语言LanguageToolStripMenuItem";
+            this.语言LanguageToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
+            this.语言LanguageToolStripMenuItem.Text = "语言/Language";
+            // 
+            // CHToolStripMenuItem
+            // 
+            this.CHToolStripMenuItem.Name = "CHToolStripMenuItem";
+            this.CHToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
+            this.CHToolStripMenuItem.Text = "中文";
+            this.CHToolStripMenuItem.Click += new System.EventHandler(this.CHToolStripMenuItem_Click);
+            // 
+            // englishToolStripMenuItem
+            // 
+            this.englishToolStripMenuItem.Name = "englishToolStripMenuItem";
+            this.englishToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
+            this.englishToolStripMenuItem.Text = "English";
+            this.englishToolStripMenuItem.Click += new System.EventHandler(this.englishToolStripMenuItem_Click);
+            // 
             // ToolStripMenuItem2
             // 
             this.ToolStripMenuItem2.Name = "ToolStripMenuItem2";
-            this.ToolStripMenuItem2.Size = new System.Drawing.Size(160, 22);
+            this.ToolStripMenuItem2.Size = new System.Drawing.Size(162, 22);
             this.ToolStripMenuItem2.Text = "退出";
             this.ToolStripMenuItem2.Click += new System.EventHandler(this.ToolStripMenuItem2_Click);
             // 
@@ -184,7 +211,7 @@
             // 
             this.button1.Location = new System.Drawing.Point(169, 68);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(74, 30);
+            this.button1.Size = new System.Drawing.Size(92, 30);
             this.button1.TabIndex = 3;
             this.button1.Text = "确定";
             this.button1.UseVisualStyleBackColor = true;
@@ -208,7 +235,7 @@
             this.groupBox1.Controls.Add(this.comboBox2);
             this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(231, 50);
+            this.groupBox1.Size = new System.Drawing.Size(249, 50);
             this.groupBox1.TabIndex = 5;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "时间设置";
@@ -230,24 +257,26 @@
             this.label1.Size = new System.Drawing.Size(35, 12);
             this.label1.TabIndex = 6;
             this.label1.Text = "时 至";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(251, 107);
+            this.ClientSize = new System.Drawing.Size(273, 107);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.button1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Form1";
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "夜间免打扰";
             this.TopMost = true;
             this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.contextMenuStrip1.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
@@ -276,6 +305,9 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ToolStripMenuItem 语言LanguageToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem CHToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem englishToolStripMenuItem;
     }
 }
 

@@ -11,3 +11,16 @@ D:\PROGRAM\WallPaperChanger\WallPaperChanger\bin\Debug\WallPaperChanger.exe.mani
 D:\PROGRAM\WallPaperChanger\WallPaperChanger\bin\Debug\WallPaperChanger.application
 D:\PROGRAM\WallPaperChanger\WallPaperChanger\obj\Debug\WallPaperChanger.exe.manifest
 D:\PROGRAM\WallPaperChanger\WallPaperChanger\obj\Debug\WallPaperChanger.application
+D:\Codes\Laputa\WallPaperChanger\bin\Debug\Laputa.exe.config
+D:\Codes\Laputa\WallPaperChanger\obj\Debug\WallPaperChanger.csprojResolveAssemblyReference.cache
+D:\Codes\Laputa\WallPaperChanger\obj\Debug\WallPaperChanger.Form1.resources
+D:\Codes\Laputa\WallPaperChanger\obj\Debug\Laputa.Properties.Resources.resources
+D:\Codes\Laputa\WallPaperChanger\obj\Debug\WallPaperChanger.csproj.GenerateResource.Cache
+D:\Codes\Laputa\WallPaperChanger\obj\Debug\Laputa.exe
+D:\Codes\Laputa\WallPaperChanger\obj\Debug\Laputa.pdb
+D:\Codes\Laputa\WallPaperChanger\bin\Debug\Laputa.exe.manifest
+D:\Codes\Laputa\WallPaperChanger\bin\Debug\Laputa.application
+D:\Codes\Laputa\WallPaperChanger\bin\Debug\Laputa.exe
+D:\Codes\Laputa\WallPaperChanger\bin\Debug\Laputa.pdb
+D:\Codes\Laputa\WallPaperChanger\obj\Debug\Laputa.exe.manifest
+D:\Codes\Laputa\WallPaperChanger\obj\Debug\Laputa.application
